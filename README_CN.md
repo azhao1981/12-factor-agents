@@ -18,14 +18,14 @@
 
 <p></p>
 
-*秉承 [12 Factor Apps](https://12factor.net/) 的精神*。*本项目的源代码公开在 https://github.com/humanlayer/12-factor-agents，我欢迎您的反馈和贡献。让我们一起探索这个问题！*
+*秉承 [12 Factor Apps](https://12factor.net/) 的精神*。*本项目的源代码公开在 https://github.com/humanlayer/12-factor-agents, 我欢迎您的反馈和贡献。让我们一起探索这个问题！*
 
 > [!TIP]
 > 错过了 AI Engineer World's Fair？[在此观看演讲](https://www.youtube.com/watch?v=8kMaTybvDUw)
 >
-> 寻找上下文工程？[直接跳转到因素 3](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)
+> 寻找上下文工程？[直接跳转到 factor 3](content/factor-03-own-your-context-window_CN.md)
 >
-> 想为 `npx/uvx create-12-factor-agent` 做贡献 - 查看[讨论线程](https://github.com/humanlayer/12-factor-agents/discussions/61)
+> 想为 `npx/uvx create-12-factor-agent` 做贡献 - 查看[discussions](https://github.com/humanlayer/12-factor-agents/discussions/61)
 
 
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=2acad99a-c2d9-48df-86f5-9ca8061b7bf9" />
@@ -56,32 +56,32 @@
 
 即使 LLM [继续呈指数级变得更强大](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md#what-if-llms-get-smarter)，仍然有一些核心技术可以使 LLM 驱动的软件更可靠、更可扩展、更易于维护。
 
-- [我们是如何走到今天的：软件简史](https://github.com/humanlayer/12-factor-agents/blob/main/content/brief-history-of-software.md)
-- [因素 1：自然语言到工具调用](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls.md)
-- [因素 2：拥有你的提示](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md)
-- [因素 3：拥有你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)
-- [因素 4：工具只是结构化输出](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md)
-- [因素 5：统一执行状态和业务状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state.md)
-- [因素 6：使用简单的 API 启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume.md)
-- [因素 7：通过工具调用联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md)
-- [因素 8：拥有你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow.md)
-- [因素 9：将错误压缩到上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors.md)
-- [因素 10：小型专注的代理](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md)
-- [因素 11：从任何地方触发，在用户所在的地方与他们见面](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-11-trigger-from-anywhere.md)
-- [因素 12：使你的代理成为无状态归约器](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-12-stateless-reducer.md)
+- [我们是如何走到今天的：软件简史](content/brief-history-of-software_CN.md)
+- [因素 1：自然语言到工具调用](content/factor-01-natural-language-to-tool-calls_CN.md)
+- [因素 2：拥有你的提示](content/factor-02-own-your-prompts_CN.md)
+- [因素 3：拥有你的上下文窗口](content/factor-03-own-your-context-window_CN.md)
+- [因素 4：工具只是结构化输出](content/factor-04-tools-are-structured-outputs_CN.md)
+- [因素 5：统一执行状态和业务状态](content/factor-05-unify-execution-state_CN.md)
+- [因素 6：使用简单的 API 启动/暂停/恢复](content/factor-06-launch-pause-resume_CN.md)
+- [因素 7：通过工具调用联系人类](content/factor-07-contact-humans-with-tools_CN.md)
+- [因素 8：拥有你的控制流](content/factor-08-own-your-control-flow_CN.md)
+- [因素 9：将错误压缩到上下文窗口](content/factor-09-compact-errors_CN.md)
+- [因素 10：小型专注的代理](content/factor-10-small-focused-agents_CN.md)
+- [因素 11：从任何地方触发，在用户所在的地方与他们见面](content/factor-11-trigger-from-anywhere_CN.md)
+- [因素 12：使你的代理成为无状态归约器](content/factor-12-stateless-reducer_CN.md)
 
 ### 可视化导航
 
 |    |    |    |
 |----|----|-----|
-|[![因素 1](https://github.com/humanlayer/12-factor-agents/blob/main/img/110-natural-language-tool-calls.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls.md) | [![因素 2](https://github.com/humanlayer/12-factor-agents/blob/main/img/120-own-your-prompts.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md) | [![因素 3](https://github.com/humanlayer/12-factor-agents/blob/main/img/130-own-your-context-building.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md) |
-|[![因素 4](https://github.com/humanlayer/12-factor-agents/blob/main/img/140-tools-are-just-structured-outputs.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md) | [![因素 5](https://github.com/humanlayer/12-factor-agents/blob/main/img/150-unify-state.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state.md) | [![因素 6](https://github.com/humanlayer/12-factor-agents/blob/main/img/160-pause-resume-with-simple-apis.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume.md) |
-| [![因素 7](https://github.com/humanlayer/12-factor-agents/blob/main/img/170-contact-humans-with-tools.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md) | [![因素 8](https://github.com/humanlayer/12-factor-agents/blob/main/img/180-control-flow.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow.md) | [![因素 9](https://github.com/humanlayer/12-factor-agents/blob/main/img/190-factor-9-errors-static.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors.md) |
-| [![因素 10](https://github.com/humanlayer/12-factor-agents/blob/main/img/1a0-small-focused-agents.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md) | [![因素 11](https://github.com/humanlayer/12-factor-agents/blob/main/img/1b0-trigger-from-anywhere.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-11-trigger-from-anywhere.md) | [![因素 12](https://github.com/humanlayer/12-factor-agents/blob/main/img/1c0-stateless-reducer.png)](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-12-stateless-reducer.md) |
+|[![因素 1](img/110-natural-language-tool-calls.png)](content/factor-01-natural-language-to-tool-calls_CN.md) | [![因素 2](img/120-own-your-prompts.png)](content/factor-02-own-your-prompts_CN.md) | [![因素 3](img/130-own-your-context-building.png)](content/factor-03-own-your-context-window_CN.md) |
+|[![因素 4](img/140-tools-are-just-structured-outputs.png)](content/factor-04-tools-are-structured-outputs_CN.md) | [![因素 5](img/150-unify-state.png)](content/factor-05-unify-execution-state_CN.md) | [![因素 6](img/160-pause-resume-with-simple-apis.png)](content/factor-06-launch-pause-resume_CN.md) |
+| [![因素 7](img/170-contact-humans-with-tools.png)](content/factor-07-contact-humans-with-tools_CN.md) | [![因素 8](img/180-control-flow.png)](content/factor-08-own-your-control-flow_CN.md) | [![因素 9](img/190-factor-9-errors-static.png)](content/factor-09-compact-errors_CN.md) |
+| [![因素 10](img/1a0-small-focused-agents.png)](content/factor-10-small-focused-agents_CN.md) | [![因素 11](img/1b0-trigger-from-anywhere.png)](content/factor-11-trigger-from-anywhere_CN.md) | [![因素 12](img/1c0-stateless-reducer.png)](content/factor-12-stateless-reducer_CN.md) |
 
 ## 我们是如何走到今天的
 
-关于我的代理之旅以及我们是如何走到今天的更深入探讨，请查看[软件简史](https://github.com/humanlayer/12-factor-agents/blob/main/content/brief-history-of-software.md) - 这里是简要总结：
+关于我的代理之旅以及我们是如何走到今天的更深入探讨，请查看[软件简史](content/brief-history-of-software_CN.md) - 这里是简要总结：
 
 ### 代理的承诺
 
@@ -190,23 +190,23 @@ while True:
 
 ## 12 个因素（再次）
 
-- [我们是如何走到今天的：软件简史](https://github.com/humanlayer/12-factor-agents/blob/main/content/brief-history-of-software.md)
-- [因素 1：自然语言到工具调用](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls.md)
-- [因素 2：拥有你的提示](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md)
-- [因素 3：拥有你的上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)
-- [因素 4：工具只是结构化输出](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md)
-- [因素 5：统一执行状态和业务状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state.md)
-- [因素 6：使用简单的 API 启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume.md)
-- [因素 7：通过工具调用联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md)
-- [因素 8：拥有你的控制流](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow.md)
-- [因素 9：将错误压缩到上下文窗口](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors.md)
-- [因素 10：小型专注的代理](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md)
-- [因素 11：从任何地方触发，在用户所在的地方与他们见面](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-11-trigger-from-anywhere.md)
-- [因素 12：使你的代理成为无状态归约器](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-12-stateless-reducer.md)
+- [我们是如何走到今天的：软件简史](content/brief-history-of-software_CN.md)
+- [因素 1：自然语言到工具调用](content/factor-01-natural-language-to-tool-calls_CN.md)
+- [因素 2：拥有你的提示](content/factor-02-own-your-prompts_CN.md)
+- [因素 3：拥有你的上下文窗口](content/factor-03-own-your-context-window_CN.md)
+- [因素 4：工具只是结构化输出](content/factor-04-tools-are-structured-outputs_CN.md)
+- [因素 5：统一执行状态和业务状态](content/factor-05-unify-execution-state_CN.md)
+- [因素 6：使用简单的 API 启动/暂停/恢复](content/factor-06-launch-pause-resume_CN.md)
+- [因素 7：通过工具调用联系人类](content/factor-07-contact-humans-with-tools_CN.md)
+- [因素 8：拥有你的控制流](content/factor-08-own-your-control-flow_CN.md)
+- [因素 9：将错误压缩到上下文窗口](content/factor-09-compact-errors_CN.md)
+- [因素 10：小型专注的代理](content/factor-10-small-focused-agents_CN.md)
+- [因素 11：从任何地方触发，在用户所在的地方与他们见面](content/factor-11-trigger-from-anywhere_CN.md)
+- [因素 12：使你的代理成为无状态归约器](content/factor-12-stateless-reducer_CN.md)
 
 ## 荣誉提及 / 其他建议
 
-- [因素 13：预取你可能需要的所有上下文](https://github.com/humanlayer/12-factor-agents/blob/main/content/appendix-13-pre-fetch.md)
+- [因素 13：预取你可能需要的所有上下文](content/appendix-13-pre-fetch_CN.md)
 
 ## 相关资源
 
