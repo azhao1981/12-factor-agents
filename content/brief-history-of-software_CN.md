@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README_CN.md)
+[← 返回 README](../README_CN.md)
 
 ## 更长版本：我们是如何走到今天的
 
@@ -108,7 +108,7 @@ while True:
 
 ![micro-agent-dag](https://github.com/humanlayer/12-factor-agents/blob/main/img/028-micro-agent-dag.png)
 
-你可能会问 - "在这种情况下为什么还要使用代理？" - 我们会很快讨论这个问题，但基本上，让语言模型管理范围明确的任务集使得整合实时人类反馈变得容易，将其转换为工作流程步骤而不会陷入上下文错误循环。（[因素 1](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls.md)，[因素 3](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md) [因素 7](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md)）。
+你可能会问 - "在这种情况下为什么还要使用代理？" - 我们会很快讨论这个问题，但基本上，让语言模型管理范围明确的任务集使得整合实时人类反馈变得容易，将其转换为工作流程步骤而不会陷入上下文错误循环。（[因素 1](factor-01-natural-language-to-tool-calls_CN.md)，[因素 3](factor-03-own-your-context-window_CN.md) [因素 7](factor-07-contact-humans-with-tools_CN.md)）。
 
 > #### 让语言模型管理范围明确的任务集使得整合实时人类反馈变得容易...而不会陷入上下文错误循环
 
@@ -156,10 +156,10 @@ while True:
 
 ### 那么代理到底是什么？
 
-- **提示** - 告诉 LLM 如何行为，以及它有哪些可用的"工具"。提示的输出是一个描述工作流程中下一步的 JSON 对象（"工具调用"或"函数调用"）。（[因素 2](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md)）
-- **switch 语句** - 基于 LLM 返回的 JSON，决定如何处理它。（[因素 8](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow.md) 的一部分）
-- **累积的上下文** - 存储已发生的步骤及其结果列表（[因素 3](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)）
-- **for 循环** - 直到 LLM 发出某种"终端"工具调用（或纯文本响应），将 switch 语句的结果添加到上下文窗口并要求 LLM 选择下一步。（[因素 8](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-08-own-your-control-flow.md)）
+- **提示** - 告诉 LLM 如何行为，以及它有哪些可用的"工具"。提示的输出是一个描述工作流程中下一步的 JSON 对象（"工具调用"或"函数调用"）。（[因素 2](factor-02-own-your-prompts_CN.md)）
+- **switch 语句** - 基于 LLM 返回的 JSON，决定如何处理它。（[因素 8](factor-08-own-your-control-flow_CN.md) 的一部分）
+- **累积的上下文** - 存储已发生的步骤及其结果列表（[因素 3](factor-03-own-your-context-window_CN.md)）
+- **for 循环** - 直到 LLM 发出某种"终端"工具调用（或纯文本响应），将 switch 语句的结果添加到上下文窗口并要求 LLM 选择下一步。（[因素 8](factor-08-own-your-control-flow_CN.md)）
 
 ![040-4-components](https://github.com/humanlayer/12-factor-agents/blob/main/img/040-4-components.png)
 
@@ -169,6 +169,6 @@ while True:
 - 我们可以轻松地序列化 **上下文** 窗口以进行暂停+恢复
 - 在我们的 **提示** 中，我们可以优化如何向 LLM 传递指令和"到目前为止发生了什么"
 
-[第二部分](https://github.com/humanlayer/12-factor-agents/blob/main/README_CN.md#12-个因素) 将**使这些模式正式化**，以便它们可以应用于为任何软件项目添加令人印象深刻的 AI 功能，而无需完全投入"AI agent"的传统实现/定义。
+[第二部分](../README_CN.md#12-个因素) 将**使这些模式正式化**，以便它们可以应用于为任何软件项目添加令人印象深刻的 AI 功能，而无需完全投入"AI agent"的传统实现/定义。
 
-[因素 1 - 自然语言到工具调用 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-01-natural-language-to-tool-calls.md)
+[因素 1 - 自然语言到工具调用 →](factor-01-natural-language-to-tool-calls_CN.md)

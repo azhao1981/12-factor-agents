@@ -1,17 +1,17 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README_CN.md)
+[← 返回 README](../README_CN.md)
 
 ### 8. 拥有你的控制流
 
 如果你拥有你的控制流，你可以做很多有趣的事情。
 
-![180-control-flow](https://github.com/humanlayer/12-factor-agents/blob/main/img/180-control-flow.png)
+![180-control-flow](../img/180-control-flow.png)
 
 
 构建对你特定用例有意义的控制结构。具体来说，某些类型的工具调用可能是中断循环并等待来自人类或其他长时间运行任务（如训练管道）响应的原因。你可能还想合并自定义实现：
 
 - 工具调用结果的总结或缓存
 - LLM 作为结构化输出的判断者
-- 上下文窗口压缩或其他[内存管理](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window_CN.md)
+- 上下文窗口压缩或其他[内存管理](factor-03-own-your-context-window_CN.md)
 - 日志记录、跟踪和指标
 - 客户端速率限制
 - 持久化睡眠/暂停/"等待事件"
@@ -77,6 +77,6 @@ def handle_next_step(thread: Thread):
 3. 给予代理访问做更大、更有用的事情的能力，只是希望它不会搞砸
 
 
-你可能注意到这与[因素 5 - 统一执行状态和业务状态](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-05-unify-execution-state_CN.md)和[因素 6 - 使用简单的 API 启动/暂停/恢复](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume_CN.md)密切相关，但可以独立实现。
+你可能注意到这与[因素 5 - 统一执行状态和业务状态](factor-05-unify-execution-state_CN.md)和[因素 6 - 使用简单的 API 启动/暂停/恢复](factor-06-launch-pause-resume_CN.md)密切相关，但可以独立实现。
 
-[← 通过工具调用联系人类](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools_CN.md) | [将错误压缩到上下文窗口 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-09-compact-errors.md)
+[← 通过工具调用联系人类](factor-07-contact-humans-with-tools_CN.md) | [将错误压缩到上下文窗口 →](factor-09-compact-errors_CN.md)

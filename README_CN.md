@@ -42,7 +42,7 @@
 
 **我惊讶地发现**，大多数标榜为"AI Agents"的产品实际上并不那么具有代理性。它们大多是确定性代码，只是在恰到好处的地方加入了 LLM 步骤，使体验真正神奇。
 
-好的代理，至少是好的代理，并不遵循["这是你的提示，这是一袋工具，循环直到达到目标"](https://www.anthropic.com/engineering/building-effective-agents#agents)的模式。相反，它们主要由软件组成。
+好的代理，至少是好的代理，并不遵循["这是你的提示词，这是一袋工具，循环直到达到目标"](https://www.anthropic.com/engineering/building-effective-agents#agents)的模式。相反，它们主要由软件组成。
 
 因此，我开始探索回答这个问题：
 
@@ -54,11 +54,11 @@
 
 ## 简短版本：12 个因素
 
-即使 LLM [继续呈指数级变得更强大](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-10-small-focused-agents.md#what-if-llms-get-smarter)，仍然有一些核心技术可以使 LLM 驱动的软件更可靠、更可扩展、更易于维护。
+即使 LLM [继续呈指数级变得更强大](content/factor-10-small-focused-agents_CN.md#what-if-llms-get-smarter)，仍然有一些核心技术可以使 LLM 驱动的软件更可靠、更可扩展、更易于维护。
 
 - [我们是如何走到今天的：软件简史](content/brief-history-of-software_CN.md)
 - [因素 1：自然语言到工具调用](content/factor-01-natural-language-to-tool-calls_CN.md)
-- [因素 2：拥有你的提示](content/factor-02-own-your-prompts_CN.md)
+- [因素 2：拥有你的提示词](content/factor-02-own-your-prompts_CN.md)
 - [因素 3：拥有你的上下文窗口](content/factor-03-own-your-context-window_CN.md)
 - [因素 4：工具只是结构化输出](content/factor-04-tools-are-structured-outputs_CN.md)
 - [因素 5：统一执行状态和业务状态](content/factor-05-unify-execution-state_CN.md)
@@ -87,13 +87,13 @@
 
 我们将要大量讨论有向图（DGs）和它们的无环朋友，DAGs。我首先要指出的是...嗯...软件是一个有向图。这就是为什么我们过去用流程图来表示程序。
 
-![010-software-dag](https://github.com/humanlayer/12-factor-agents/blob/main/img/010-software-dag.png)
+![010-software-dag](../img/010-software-dag.png)
 
 ### 从代码到 DAG
 
 大约 20 年前，我们开始看到 DAG 编排器变得流行。我们谈论的是像 [Airflow](https://airflow.apache.org/)、[Prefect](https://www.prefect.io/) 这样经典的，还有一些前辈，以及一些更新的比如 ([dagster](https://dagster.io/)、[inggest](https://www.inngest.com/)、[windmill](https://www.windmill.dev/))。它们遵循相同的图模式，增加了可观察性、模块化、重试、管理等优势。
 
-![015-dag-orchestrators](https://github.com/humanlayer/12-factor-agents/blob/main/img/015-dag-orchestrators.png)
+![015-dag-orchestrators](../img/015-dag-orchestrators.png)
 
 ### 代理的承诺
 
@@ -192,7 +192,7 @@ while True:
 
 - [我们是如何走到今天的：软件简史](content/brief-history-of-software_CN.md)
 - [因素 1：自然语言到工具调用](content/factor-01-natural-language-to-tool-calls_CN.md)
-- [因素 2：拥有你的提示](content/factor-02-own-your-prompts_CN.md)
+- [因素 2：拥有你的提示词](content/factor-02-own-your-prompts_CN.md)
 - [因素 3：拥有你的上下文窗口](content/factor-03-own-your-context-window_CN.md)
 - [因素 4：工具只是结构化输出](content/factor-04-tools-are-structured-outputs_CN.md)
 - [因素 5：统一执行状态和业务状态](content/factor-05-unify-execution-state_CN.md)

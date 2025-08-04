@@ -1,4 +1,4 @@
-[← 返回 README](https://github.com/humanlayer/12-factor-agents/blob/main/README_CN.md)
+[← 返回 README](../README_CN.md)
 
 ### 3. 拥有你的上下文窗口
 
@@ -110,7 +110,7 @@
 ]
 ```
 
-模型可能会通过你提供的工具模式推断你在问它"下一步是什么"，但将其滚动到你的提示模板中永远不会有害。
+模型可能会通过你提供的工具模式推断你在问它"下一步是什么"，但将其滚动到你的提示词模板中永远不会有害。
 
 ### 代码示例
 
@@ -150,4 +150,4 @@ def thread_to_prompt(thread: Thread) -> str:
 
 记住：上下文窗口是你与 LLM 的主要接口。控制你构建和呈现信息的方式可以显著改善你的代理的性能。
 
-[← 拥有你的提示](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts_CN.md) | [工具只是结构化输出 →](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-04-tools-are-structured-outputs.md)
+[← 拥有你的提示词](factor-02-own-your-prompts_CN.md) | [工具只是结构化输出 →](factor-04-tools-are-structured-outputs_CN.md)
